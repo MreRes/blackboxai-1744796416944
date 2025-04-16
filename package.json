@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-financial-planner",
+  "version": "1.0.0",
+  "description": "WhatsApp chatbot for financial planning with Google Sheets integration and AI Gemini",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "financial-planning",
+    "google-sheets",
+    "ai-gemini"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "googleapis": "^148.0.0",
+    "morgan": "^1.10.0",
+    "twilio": "^5.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
